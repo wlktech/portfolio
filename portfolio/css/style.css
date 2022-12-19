@@ -27,6 +27,13 @@
     transform: translateY(0);
     opacity: 1;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
 .navbar-brand{
     font-weight: 600;
     color: red;
@@ -53,7 +60,7 @@
     color: #010718;
 }
 .sticky{
-    padding: 3px 0px;
+    padding: 15px 0px;
     background-color: rgb(108, 108, 108);
     transition-duration: .6s;
 }
@@ -203,6 +210,31 @@
     font-weight: 600;
 }
 /* About End */
+
+/* Skill */
+.jquery{
+    background-color: #0168AE;
+}
+.fa-bootstrap{
+    color: #5B4083;
+}
+.bootstrap{
+    background-color: #5B4083;
+}
+.fa-laravel{
+    color: #FF4237;
+}
+.laravel{
+    background-color: #FF4237;
+}
+.fa-php{
+    color: #436799;
+}
+.php{
+    background-color: #436799;
+}
+/* Skill */
+
 
 
 /* Contact Start */

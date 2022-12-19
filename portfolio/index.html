@@ -7,14 +7,16 @@
     <title>Wai Linn Kyaw</title>
     <!--CSS & Bootstrap & Fontawesome CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b829c5162c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/b829c5162c.js" crossorigin="anonymous"></script> -->
+    <script src="./fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="preloader"></div>
 <!--nav start-->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+<nav class="navbar navbar-expand-md navbar-dark" id="navbar">
     <div class="container">
       <a class="navbar-brand name_color" href="#home">WAI LINN KYAW</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -29,10 +31,10 @@
             <a class="link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="link" href="#">RESUME</a>
+            <a class="link" href="#skill">SKILLS</a>
           </li>  
           <li class="nav-item">
-            <a class="link" href="#">PORTFOLIO</a>
+            <a class="link" href="#portfolio">PORTFOLIO</a>
           </li>
           <li class="nav-item">
             <a class="link" href="#contact">CONTACT</a>
@@ -89,7 +91,7 @@
 
 <!-- About Start -->
 <div id="about" class="container-fluid py-5" align="center">
-  <h2 class="header text-center reveal mt-2">ABOUT ME</h2>
+  <h2 class="header text-center reveal mt-4">ABOUT ME</h2>
   <hr class="underline reveal my-3">
   <div class="container my-5">
     <div class="row reveal">
@@ -132,6 +134,128 @@
   </div>
 </div>
 <!-- About End -->
+
+<!-- Skill Start -->
+<div class="container-fluid py-5" id="skill">
+  <h2 class="header text-center reveal mt-4">SKILLS</h2>
+  <hr class="underline reveal my-3">
+  <div class="container reveal">
+    <div class="row my-2">
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-html5 fa-3x text-danger"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar bg-danger" style="width: 90%;">90%</div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-css3 fa-3x text-primary"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-js-square fa-3x text-warning"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar bg-warning" style="width: 70%;">70%</div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center my-3">
+        <img src="./img/jq.png" width="48px" alt="">
+        <div class="progress mt-4">
+          <div class="progress-bar jquery" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-bootstrap fa-3x"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar bootstrap" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center my-3">
+        <img src="./img/sql.png" width="34px" alt="">
+        <div class="progress mt-4">
+          <div class="progress-bar jquery" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-php fa-3x"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar php" style="width: 50%;">50%</div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center my-3">
+        <i class="fa-brands fa-laravel fa-3x"></i>
+        <div class="progress mt-4">
+          <div class="progress-bar laravel" style="width: 50%;">50%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skill End -->
+
+<!-- Portfolio Start -->
+<div class="container py-5" id="portfolio">
+  <h2 class="header text-center reveal mt-4">PORTFOLIOS</h2>
+  <hr class="underline reveal my-3">
+  <div class="row my-5 reveal">
+    <div class="col-lg-3 col-md-6 col-6 my-3">
+      <div class="card shadow">
+        <img src="./img/jl.jpg" style="height: 303px;" alt="" class="card-img-top">
+        <div class="card-title text-center py-3">
+          <h4>J-Library</h4>
+          <small class="text-secondary d-block">Japanese Study Guide Materials</small>
+          <a class="btn btn-sm btn-outline-dark mt-4 me-1" href="https://github.com/wailinnkyaw03/wailinnkyaw03.github.io/tree/main/J-Library" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="btn btn-sm btn-outline-dark mt-4" href="https://j-library-wlk.vercel.app/" target="_blank">Go To Page</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-6 my-3">
+      <div class="card shadow">
+        <img src="./img/logo.png" style="height: 303px;" alt="" class="card-img-top">
+        <div class="card-title text-center py-3">
+          <h4>WLK-Fashion</h4>
+          <small class="text-secondary d-block">Export Branded Fashions</small>
+          <a class="btn btn-sm btn-outline-dark mt-4 me-1" href="https://github.com/wlktech/wlktech.github.io/tree/main/heinlearn/Bootstrap/homework/onlineshop" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="btn btn-sm btn-outline-dark mt-4" href="https://wlkfashion.vercel.app/" target="_blank">Go To Page</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-6 my-3">
+      <div class="card shadow">
+        <img src="./img/nr.jpg" style="height: 303px;" alt="" class="card-img-top">
+        <div class="card-title text-center py-3">
+          <h4>NR-Noise Reducer</h4>
+          <small class="text-secondary d-block">Acoustic Materials Shop</small>
+          <a class="btn btn-sm btn-outline-dark mt-4 me-1" href="https://github.com/wlktech/wlktech.github.io/tree/main/nr" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="btn btn-sm btn-outline-dark mt-4" href="https://noise-reducer.vercel.app/" target="_blank">Go To Page</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-6 my-3">
+      <div class="card shadow">
+        <img src="./img/wlkmobile.png" alt="" style="height: 303px;" class="card-img-top">
+        <div class="card-title text-center py-3">
+          <h4>WLK-Mobile</h4>
+          <small class="text-secondary d-block">Mobile Phones & Accessories</small>
+          <a class="btn btn-sm btn-outline-dark mt-4 me-1" href="https://github.com/wlktech/wlktech.github.io/tree/main/heinlearn/CSS/onlineshop" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="btn btn-sm btn-outline-dark mt-4" href="https://wlk-mobile.vercel.app/" target="_blank">Go To Page</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- Portfolio End -->
 
 <!-- <div class="preloader">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/JmOzco_KT3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
