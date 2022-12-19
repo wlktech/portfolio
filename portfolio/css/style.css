@@ -27,18 +27,18 @@
     transform: translateY(0);
     opacity: 1;
 }
-.navbar{
+/* .navbar{
     background-color: black;
     opacity: 0.6;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 99; */
+    z-index: 99;
 }
 .navbar:hover{
     opacity: 0.8;
-}
+} */
 .navbar-brand{
     font-weight: 600;
     color: red;
@@ -64,23 +64,31 @@
     border-radius: 10px;
     color: #010718;
 }
+.sticky{
+    padding: 5px 100px;
+    background-color: rgb(108, 108, 108);
+}
 
 /* Home Start */
 #home{
-    background: url(../img/cover.png);
+    /* background: url(https://cdn-images.zety.com/pages/how_to_write_web_developer_resume.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #000;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: black;
 }
 .pro{
+    /* position: absolute;
+    top: 0; */
     margin: auto;
-    padding: 80px 0px 40px 0px;
+    padding: 10px 0px 150px 0px;
 }
+
 .img{
     text-align: center;
-    padding: 20px 0px 30px 0px;
+    padding: 10px 0px 30px 0px;
     animation: leftin 1s linear 1;
     animation-delay: 1s;
     visibility: hidden;
@@ -97,12 +105,12 @@
     }
 }
 
-.img img{
+/* .img img{
     border-radius: 50%;
 
-}
+} */
 .txt{
-    padding: 70px 0px;
+    padding: 100px 0px 10px 0px;
     animation: rightin 1s linear 1;
     animation-delay: 2s;
     visibility: hidden;
@@ -126,7 +134,11 @@
     font-weight: 600;
     color: white;
 }
-
+.line{
+    width: 20%;
+    border: 4px solid rgb(252, 252, 252);
+    border-radius: 5px;
+}
 .fa-facebook{
     font-size: 35px;
     position: relative;

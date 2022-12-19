@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
 
 
 var typed = new Typed(".auto-type", {
-    strings: ["Junior Developer.", "PHP Developer.","Laravel Developer."],
+    strings: ["Web Developer.", "PHP Developer.","Laravel Developer."],
     typeSpeed:150,
     backSpeed:150,
     loop:true
@@ -67,3 +67,8 @@ function validateForm() {
     document.getElementById('success').innerHTML = "You have sent successfully!"
   }
 }
+
+window.addEventListener("scroll", function(){
+  let navbar = document.getElementById("navbar");
+  navbar.classList.toggle("sticky", this.window.scrollY > 0);
+})
