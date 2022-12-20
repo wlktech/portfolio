@@ -212,27 +212,141 @@
 /* About End */
 
 /* Skill */
+.pro-color{
+    background-color: rgb(210, 210, 210);
+}
+.html5 {
+    animation: html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+
+.fa-html5{
+    color: #E54C21;
+}
+.html5{
+    background-color: #E54C21;
+}
+.fa-css3{
+    color: #214CE5;
+}
+.css3{
+    background-color: #214CE5;
+}
+.css3 {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+.jscript{
+    color: #F7E018;
+}
+.js{
+    background-color: #F7E018;
+}
+.js {
+    animation: jscript 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes jscript {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
 .jquery{
     background-color: #0168AE;
 }
+.jquery {
+    animation: jquery 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes jquery {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
 .fa-bootstrap{
     color: #5B4083;
 }
 .bootstrap{
     background-color: #5B4083;
 }
+.bootstrap {
+    animation: bootstrap 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes bootstrap {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+
+.sql{
+    background-color: #0168AE;
+}
+.sql {
+    animation: sql 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes sql {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+
 .fa-laravel{
     color: #FF4237;
 }
 .laravel{
     background-color: #FF4237;
 }
+.laravel {
+    animation: laravel 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes laravel {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+
 .fa-php{
     color: #436799;
 }
 .php{
     background-color: #436799;
 }
+.php {
+    animation: php 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    width: 0;
+}
+@keyframes php {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
 /* Skill */
 
 

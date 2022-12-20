@@ -72,3 +72,4 @@ window.addEventListener("scroll", function(){
   let navbar = document.getElementById("navbar");
   navbar.classList.toggle("sticky", this.window.scrollY > 0);
 })
+
